@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../dist/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-700 ">
+    <div class="my-9 text-green-400 mx-4  flex justify-between">
+  <h1 class="text-3xl">openAi</h1>
+  <div>
+    <a href=""><i class="fa-solid fa-user"></i>user</a>
+    <button class="text-white bg-green-400 px-9 py-2 rounded-xl">Login</button>
+  </div>
+    </div>
+     <div class="flex jusitify-around mx-auto">
+
+            <div class="flex flex-col bg-black w-[200px] h-[700px] ">
+                <button class="text-white bg-green-400 px-6 py-2 rounded-xl">New treade</button>
+              <ul class=" flex flex-col mt-[100px] text-white  gap-12">
+              <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+              <a href=""><i class="fa-solid fa-envelope"></i> Guide $ faq</a>
+              <a href=""><i class="fa-solid fa-gear"></i> Settings</a>
+              <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+            </ul>
+            </div>
+           <div class="w-[84%] h-[99%] mx-auto shadow-xl p-4 mt-8">
+            <div class="mx-auto w-[80%]">
+            <div class="resultSection my-4 h-[40vh] text-white">
+                <p class="responseEl">Generated content</p>
+              </div>
+      
+              <div class="inputContainer my-7">
+                <input
+                  type="text"
+                  class="border bg-transparent border-white rounded-xl shadow-md w-full p-3 outline-none text-white inputEl"
+                  placeholder="ask me quetion... "
+                />
+              </div>
+      
+              <!-- result section -->
+      
+      
+              <div class="actions">
+                <button
+                  class="py-3 px-7 rounded-xl generateBtn bg-green-400 text-white shadow-xl hover:transition-all ease hover:bg-black"
+                >
+                  Generate
+                </button>
+              </div>
+            </div>
+           </div>
+    </div>
+    
+</body>
+</html>
